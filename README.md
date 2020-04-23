@@ -2,10 +2,10 @@
 
 ## ¿Qué es BDD ?
     
-<Business-Driven Development (BDD) es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD).
+**Business-Driven Development (BDD)** es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD).
 En BDD, las pruebas se basan principalmente en el comportamiento de los sistemas. Este enfoque define varias formas
 de desarrollar una característica en función de su comportamiento.
-En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.>
+En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.
     
 
 ## Modelo de tres etapas de BDD
@@ -23,12 +23,12 @@ En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir
     Se automatiza lo formulado para verificar el correcto funcionamiento del sistema.
 
 ## Gherkin
-...
-    **Gherkin** Es un lenguaje que nos permite escirbir casos de prueba con una sintaxis que utiliza un conjunto de 
-    palabras clave especiales para dar estructura y significado a las especificaciones ejecutables. Cada palabra clave
-    se traduce a muchos idiomas hablados.
-    La mayoría de las líneas en un documento de Gherkin comienzan con una de las siguientes **palabras clave**.
-...
+
+**Gherkin** Es un lenguaje que nos permite escirbir casos de prueba con una sintaxis que utiliza un conjunto de 
+palabras clave especiales para dar estructura y significado a las especificaciones ejecutables. Cada palabra clave
+se traduce a muchos idiomas hablados.
+La mayoría de las líneas en un documento de Gherkin comienzan con una de las siguientes **palabras clave**.
+
 
 - **Palabras clave principales:**
 
