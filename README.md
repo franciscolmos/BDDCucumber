@@ -66,11 +66,11 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
 
 3. Crear un directorio para nuestro proyecto:
 
-    `$ mkdir Benko`
+    `$ mkdir nombreProyecto`
 
 4. Ir al directorio:
 
-    `$ cd Benko`
+    `$ cd nombreProyecto`
 
 5. Primero crear el `package.json` que contendrá los paquetes de NPM que necesitamos para nuestro proyecto y agregar el paquete de **Cucumber** en el:
 
