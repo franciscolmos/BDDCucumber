@@ -1,6 +1,49 @@
 ## BDD con Cucumber
 
--
+# ¿Qué es BDD ?
+
+    ... Business-Driven Development (BDD) es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD). En BDD, las pruebas se basan principalmente en el comportamiento de los sistemas. Este enfoque define varias formas de desarrollar una característica en función de su comportamiento.
+        En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.
+
+# Modelo de tres etapas de BDD
+
+    1. **Discovery**
+
+        ... Primero se descubre, plantea el scope o alcance del comportamiento requerido por la historia de usuario.
+
+    2. **Formulation**
+
+        ... Luego se formula las especificaciones en un lenguaje entendible por todas las partes.
+        
+    3. **Automation**
+
+        ... Se automatiza lo formulado para verificar el correcto funcionamiento del sistema.
+
+# Gherkin
+
+    ... **Gherkin** Es un lenguaje que nos permite escirbir casos de prueba con una sintaxis que utiliza un conjunto de palabras clave especiales para dar estructura y significado a las especificaciones ejecutables. Cada palabra clave se traduce a muchos idiomas hablados.
+        La mayoría de las líneas en un documento de Gherkin comienzan con una de las siguientes **palabras clave**.
+
+        - **Palabras clave principales:**
+
+            * `Feature`
+            * `Rule` (a partir de Gherkin 6)
+            * `Example`(o Scenario)
+            * `Given`, `When`, `Then`, `And`, `But` para los pasos (o *)
+            * `Background`
+            * `Scenario Outline` (o `Scenario Template`)
+            * `Examples`
+        
+        - **Palabras clave secundarias:**
+
+            * `"""` (Doc Strings)
+            * `|` (Tablas de datos)
+            * `@` (Etiquetas)
+            * `#` (Comentarios)
+
+        - **Given:** contexto para el escenario. Ponemos al sistema en un estado específico, listo para que se desarrolle el escenario.
+        - **When:** es una Acción. Algo que le sucede al sistema que hará que le suceda algo más: un resultado.
+        - **Then:** es el resultado. El comportamiento que esperamos del sistema cuando esta acción ocurre en el contexto.
 
 ## Como instalar Cucumber con NodeJs y NPM
 
