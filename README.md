@@ -14,49 +14,54 @@
 2. Si surge algun error al correr los anteriores comandos, deberas reinstalar Node
 3. Crear un directorio para nuestro proyecto
 
-  `$ mkdir Benko`
+  - `$ mkdir Benko`
 
 4. Ir al directorio
 
-  `$ cd Benko`
+  - `$ cd Benko`
 
-- Primero crear el package.json que contentra los paquetes de NPM que necesitamos para nuestro proyecto y agregar el paquete de Cucumber en el.
+5. Primero crear el package.json que contentra los paquetes de NPM que necesitamos para nuestro proyecto y agregar el paquete de Cucumber en el.
+    ~~~
+  $ npm init -y
+  $ npm install -D cucumber
+    ~~~
 
-  `$ npm init -y`
-  `$ npm install -D cucumber`
+6. Podemos agregar opcionalmente `cucumber-pretty` para formatear nuestro codigo.
 
-- Podemos agregar opcionalmente `cucumber-pretty` para formatear nuestro codigo.
+    - `$ npm install -D cucumber-pretty`
 
-  `$ npm install -D cucumber-pretty`
+7. Ejecutar el comando `cucumber-js -f node_modules/cucumber-pretty` para verificar que todo funcione.
 
-- Ejecutar el comando `cucumber-js -f node_modules/cucumber-pretty` para verificar que todo funcione.
+   - `$ ./node_modules/.bin/cucumber-js -f node_modules/cucumber-pretty`
 
-  `$ ./node_modules/.bin/cucumber-js -f node_modules/cucumber-pretty`
+8. Hay una forma mas amigable de correr Cucumber:
 
-- Hay una forma mas amigable de correr Cucumber:
+      - Edit `package.json`
+      - Cambiar la linea `test` abajo de `script` de la opcion predeterminada a: `cucumber-js`
 
-      * Edit `package.json`
-      * Cambiar la linea `test` abajo de `script` de la opcion predeterminada a: `cucumber-js`
+        ~~~
+        {
+            // ...
+            "scripts": {
+            "test": "cucumber-js -f node_modules/cucumber-pretty"
+            },
+            // ...
+        }
+        ~~~
 
-        `{`
-            `// ...`
-            `"scripts": {`
-            `"test": "cucumber-js -f node_modules/cucumber-pretty"`
-            `},`
-            `// ...`
-        `}`
+9. Todo listo, si ejecutamos `npm test`, veremos un pass de Cucumber sin esenarios o steps para correr
 
-- Todo listo, si ejecutamos `npm test`, veremos un pass de Cucumber sin esenarios o steps para correr
+    ~~~
+   $ npm test
 
-   `$ npm test`
+   > shouty-js@1.0.0 test /home/fedex/cucumber/shouty-js
+   > cucumber-js -f node_modules/cucumber-pretty
 
-   `> shouty-js@1.0.0 test /home/fedex/cucumber/shouty-js`
-   `> cucumber-js -f node_modules/cucumber-pretty`
+   0 scenarios
+   0 steps
+   0m00.000s
+    ~~~
 
-   `0 scenarios`
-   `0 steps`
-   `0m00.000s`
-
-- Finalmente instalaremos `hamjest` para tener mas afirmaciones positivas.
+10. Finalmente instalaremos `hamjest` para tener mas afirmaciones positivas.
     
-    `$ npm install -D hamjest`
+    - `$ npm install -D hamjest`
