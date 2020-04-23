@@ -1,12 +1,12 @@
 # BDD con Cucumber
 
 ## ¿Qué es BDD ?
-    ...
-        Business-Driven Development (BDD) es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD).
-    En BDD, las pruebas se basan principalmente en el comportamiento de los sistemas. Este enfoque define varias formas
-    de desarrollar una característica en función de su comportamiento.
-        En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.
-    ...
+    
+<Business-Driven Development (BDD) es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD).
+En BDD, las pruebas se basan principalmente en el comportamiento de los sistemas. Este enfoque define varias formas
+de desarrollar una característica en función de su comportamiento.
+En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.>
+    
 
 ## Modelo de tres etapas de BDD
 
