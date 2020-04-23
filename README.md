@@ -4,16 +4,16 @@
 
 ## Como instalar Cucumber con NodeJs y NPM
 
-1. Primero asegurarse de tener instalado una versión actualizada de NodeJs y NPM:
+1. Primero asegurarse de tener instalado una versión actualizada de **NodeJs** y **NPM**:
 
     ~~~
    $ node -v
    $ npm -v 
     ~~~
 
-2. Si surge algun error al correr los anteriores comandos, deberás reinstalar Node.
+2. Si surge algun error al correr los anteriores comandos, deberás reinstalar Node:
 
-    - [Instalar Node]{https://nodejs.org/en/download/}
+    - [Instalar Node](https://nodejs.org/en/download/)
 
 3. Crear un directorio para nuestro proyecto:
 
@@ -23,7 +23,7 @@
 
     `$ cd Benko`
 
-5. Primero crear el `package.json` que contendrá los paquetes de NPM que necesitamos para nuestro proyecto y agregar el paquete de Cucumber en el:
+5. Primero crear el `package.json` que contendrá los paquetes de NPM que necesitamos para nuestro proyecto y agregar el paquete de **Cucumber** en el:
 
     ~~~
   $ npm init -y
@@ -38,7 +38,7 @@
 
     `$ ./node_modules/.bin/cucumber-js -f node_modules/cucumber-pretty`
 
-8. Hay una forma mas amigable de correr Cucumber:
+8. Hay una forma mas amigable de correr **Cucumber**:
 
       - Editar `package.json`
       - Cambiar la linea `test` abajo de `script` de la opcion predeterminada a: `cucumber-js`
