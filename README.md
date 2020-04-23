@@ -1,32 +1,34 @@
 # BDD con Cucumber
 
 ## ¿Qué es BDD ?
-
-... Business-Driven Development (BDD) es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD).
-...En BDD, las pruebas se basan principalmente en el comportamiento de los sistemas. Este enfoque define varias formas
-...de desarrollar una característica en función de su comportamiento.
-... En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.
+    ...
+        Business-Driven Development (BDD) es un enfoque de prueba derivado de la metodología Test-Driven Development (TDD).
+    En BDD, las pruebas se basan principalmente en el comportamiento de los sistemas. Este enfoque define varias formas
+    de desarrollar una característica en función de su comportamiento.
+        En la mayoría de los casos, el enfoque **Given-When-Then** se usa para escribir casos de prueba.
+    ...
 
 ## Modelo de tres etapas de BDD
 
 1. **Discovery**
 
-... Primero se descubre, plantea el scope o alcance del comportamiento requerido por la historia de usuario.
+    Primero se descubre, plantea el scope o alcance del comportamiento requerido por la historia de usuario.
 
 2. **Formulation**
 
-... Luego se formula las especificaciones en un lenguaje entendible por todas las partes.
+    Luego se formula las especificaciones en un lenguaje entendible por todas las partes.
         
 3. **Automation**
 
-... Se automatiza lo formulado para verificar el correcto funcionamiento del sistema.
+    Se automatiza lo formulado para verificar el correcto funcionamiento del sistema.
 
 ## Gherkin
-
-...**Gherkin** Es un lenguaje que nos permite escirbir casos de prueba con una sintaxis que utiliza un conjunto de 
-...palabras clave especiales para dar estructura y significado a las especificaciones ejecutables. Cada palabra clave
-...se traduce a muchos idiomas hablados.
-...La mayoría de las líneas en un documento de Gherkin comienzan con una de las siguientes **palabras clave**.
+    ...
+    **Gherkin** Es un lenguaje que nos permite escirbir casos de prueba con una sintaxis que utiliza un conjunto de 
+    palabras clave especiales para dar estructura y significado a las especificaciones ejecutables. Cada palabra clave
+    se traduce a muchos idiomas hablados.
+    La mayoría de las líneas en un documento de Gherkin comienzan con una de las siguientes **palabras clave**.
+    ...
 
 - **Palabras clave principales:**
 
@@ -73,8 +75,8 @@
 5. Primero crear el `package.json` que contendrá los paquetes de NPM que necesitamos para nuestro proyecto y agregar el paquete de **Cucumber** en el:
 
     ~~~
-  $ npm init -y
-  $ npm install -D cucumber
+    $ npm init -y
+    $ npm install -D cucumber
     ~~~
 
 6. Opcionalmente podemos agregar `cucumber-pretty` para formatear nuestro codigo:
@@ -115,4 +117,4 @@
 
 10. Finalmente instalaremos `hamjest` para tener mas afirmaciones positivas:
     
-    - `$ npm install -D hamjest`
+    `$ npm install -D hamjest`
