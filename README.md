@@ -4,17 +4,19 @@
 
 ## Como instalar Cucumber con NodeJs y NPM
 
-- Primero asegurarse de tener instalado una moderna version NodeJs y NPM
+1. Primero asegurarse de tener instalado version actualizada de NodeJs y NPM
 
-  `$ node -v`
-  `$ npm -v`
+    ~~~
+   $ node -v
+   $ npm -v 
+    ~~~
 
-- Si surge algun error al correr los anteriores comandos, deberas reinstalar Node
-- Crear un directorio para nuestro proyecto
+2. Si surge algun error al correr los anteriores comandos, deberas reinstalar Node
+3. Crear un directorio para nuestro proyecto
 
   `$ mkdir Benko`
 
-- Ir al directorio
+4. Ir al directorio
 
   `$ cd Benko`
 
