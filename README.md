@@ -23,12 +23,12 @@
     Se automatiza lo formulado para verificar el correcto funcionamiento del sistema.
 
 ## Gherkin
-    ...
+...
     **Gherkin** Es un lenguaje que nos permite escirbir casos de prueba con una sintaxis que utiliza un conjunto de 
     palabras clave especiales para dar estructura y significado a las especificaciones ejecutables. Cada palabra clave
     se traduce a muchos idiomas hablados.
     La mayoría de las líneas en un documento de Gherkin comienzan con una de las siguientes **palabras clave**.
-    ...
+...
 
 - **Palabras clave principales:**
 
