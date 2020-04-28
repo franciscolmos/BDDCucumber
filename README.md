@@ -60,7 +60,7 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
     **Then:** visualizamos el nuevo logo.
 
 **Feature:** Hacer una busqueda en Google
-             Como usuario web, queiero buscar en google para informarme hacerca de BDD.
+             Como usuario web, queiero buscar en google para informarme sobre de BDD.
     **Scenario:** Busqueda simple en google sobre BDD.
     **Given:** Un navegador web en la página de Google.
     **When:** Se introduce la palabra clave de busqueda **BDD** en Google.
