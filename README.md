@@ -130,7 +130,7 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
     ~~~
    $ npm test
 
-   > nombreProyecto-js@1.0.0 test /home/fedex/cucumber/nombreProyecto-js
+   > nombreProyecto-js@1.0.0 test /home/usuario/cucumber/nombreProyecto-js
    > cucumber-js -f node_modules/cucumber-pretty
 
    0 scenarios
