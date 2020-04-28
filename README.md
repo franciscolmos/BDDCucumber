@@ -64,8 +64,8 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
        Como usuario web, queiero buscar en google para informarme sobre BDD.
    Scenario: Busqueda simple en google sobre BDD.
        Given: Un navegador web en la página de Google.
-       When: Se introduce la palabra clave de busqueda **BDD** en Google.
-       Then: se muestra el resultado de **BDD**
+       When: Se introduce la palabra clave de busqueda BDD en Google.
+       Then: se muestra el resultado de BDD
        And: Se muestran los siguientes resultado relacionados.
 
     |releated          |                 
