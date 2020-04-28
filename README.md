@@ -54,22 +54,23 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
 ## Ejemplos Gherkin
 **Feature:** Cambiar logo y el copy del nombre del producto (Login)
     #Escenario con 3 pasos.
-    **Scenario:** Agregar nuevo logo al Login.
-    **Given:** Se ha cambiado el logo anterior del login, por el nuevo.
-    **When:** ingresamos a la pantalla del Login.
-    **Then:** visualizamos el nuevo logo.
+- **Scenario:** Agregar nuevo logo al Login.
+- **Given:** Se ha cambiado el logo anterior del login, por el nuevo.
+- **When:** ingresamos a la pantalla del Login.
+- **Then:** visualizamos el nuevo logo.
 
 **Feature:** Hacer una busqueda en Google
              Como usuario web, queiero buscar en google para informarme sobre de BDD.
-    **Scenario:** Busqueda simple en google sobre BDD.
-    **Given:** Un navegador web en la página de Google.
-    **When:** Se introduce la palabra clave de busqueda **BDD** en Google.
-    **Then:** se muestra el resultado de **BDD**
-    **And:** Se muestran los siguientes resultado relacionados.
-    |releated          |                 
-    |TDD               |
-    |ATDD              |
-    |Gherkin           |
+- **Scenario:** Busqueda simple en google sobre BDD.
+- **Given:** Un navegador web en la página de Google.
+- **When:** Se introduce la palabra clave de busqueda **BDD** en Google.
+- **Then:** se muestra el resultado de **BDD**
+- **And:** Se muestran los siguientes resultado relacionados.
+
+- |releated          |                 
+- |TDD               |
+- |ATDD              |
+- |Gherkin           |
 
 
 ## Como instalar Cucumber con NodeJs y NPM
