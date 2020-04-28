@@ -51,6 +51,27 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
         - **When:** es una Acción. Algo que le sucede al sistema que hará que le suceda algo más: un resultado.
         - **Then:** es el resultado. El comportamiento que esperamos del sistema cuando esta acción ocurre en el contexto.
 
+## Ejemplos Gherkin
+**Feature:** Cambiar logo y el copy del nombre del producto (Login)
+    #Escenario con 3 pasos.
+    **Scenario:** Agregar nuevo logo al Login.
+    **Given:** Se ha cambiado el logo anterior del login, por el nuevo.
+    **When:** ingresamos a la pantalla del Login.
+    **Then:** visualizamos el nuevo logo.
+
+**Feature:** Hacer una busqueda en Google
+             Como usuario web, queiero buscar en google para informarme hacerca de BDD.
+    **Scenario:** Busqueda simple en google sobre BDD.
+    **Given:** Un navegador web en la página de Google.
+    **When:** Se introduce la palabra clave de busqueda **BDD** en Google.
+    **Then:** se muestra el resultado de **BDD**
+    **And:** Se muestran los siguientes resultado relacionados.
+    |releated          |                 
+    |TDD               |
+    |ATDD              |
+    |Gherkin           |
+
+
 ## Como instalar Cucumber con NodeJs y NPM
 
 1. Primero asegurarse de tener instalado una versión actualizada de **NodeJs** y **NPM**:
@@ -107,7 +128,7 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
     ~~~
    $ npm test
 
-   > shouty-js@1.0.0 test /home/fedex/cucumber/shouty-js
+   > nombreProyecto-js@1.0.0 test /home/fedex/cucumber/nombreProyecto-js
    > cucumber-js -f node_modules/cucumber-pretty
 
    0 scenarios
