@@ -52,13 +52,13 @@ La mayoría de las líneas en un documento de Gherkin comienzan con una de las s
         - **Then:** es el resultado. El comportamiento que esperamos del sistema cuando esta acción ocurre en el contexto.
 
 ## Ejemplos Gherkin
-    ~~~
-    **Feature:** Cambiar logo y el copy del nombre del producto (Login).
+~~~
+    Feature: Cambiar logo y el copy del nombre del producto (Login).
         #Escenario con 3 pasos.
-    **Scenario:** Agregar nuevo logo al Login.
-        **Given:** Se ha cambiado el logo anterior del login, por el nuevo.
-        **When:** ingresamos a la pantalla del Login.
-        **Then:** visualizamos el nuevo logo.
+    Scenario: Agregar nuevo logo al Login.
+        Given: Se ha cambiado el logo anterior del login, por el nuevo.
+        When: ingresamos a la pantalla del Login.
+        Then: visualizamos el nuevo logo.
 
    Feature: Hacer una busqueda en Google
        Como usuario web, queiero buscar en google para informarme sobre BDD.
